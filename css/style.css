@@ -1,4 +1,4 @@
-#h1 {
+.header h1 {
 	text-align: center;
 	font-family: 'Open Sans';
 	font-size: 50px;
@@ -8,11 +8,9 @@
 	margin-top: 1.5%;
 	margin-left: 3%;
 	margin-right: 3%;
-	border-style: solid;
 	border-top-width: 2px;
 	border-bottom-width: 2px;
 	border-radius: 10px;
-	border-color: black;
 }
 
 .header {
@@ -28,10 +26,9 @@
 	height: 84%;
 }
 
-.navbar {
+nav {
 	margin-left: 5%;
 	margin-right: 2%;
-	width: 10%;
 	height: 95%;
 	border-radius: 10px;
 	background-color: #00FF00;
@@ -39,8 +36,17 @@
 }
 
 .text {
-	margin-right: 3%;
-	margin-left: 17%;
+	margin-right: 5%;
+	margin-left: 27%;
+  padding-left: 5px;
 	height: 95%;
+  border-radius: 10px;
 	background-color: #00FFFF;
+  font-family: 'Open Sans';
+}
+
+.text h1 {
+  text-align: center;
+	font-family: 'Open Sans';
+	font-size: 35px;
 }
