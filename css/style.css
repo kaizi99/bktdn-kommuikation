@@ -1,8 +1,41 @@
+#h1 {
+	text-align: center;
+	font-family: 'Open Sans';
+	font-size: 50px;
+}
+
 .main {
-  padding: 3%;
-  border-radius: 5px;
+	margin-top: 1.5%;
+	border-style: solid;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-radius: 10px;
+	border-color: black;
+}
+
+.header {
+	margin-top: 1%;
+	margin-left: 5%;
+	margin-right: 5%;
+	border-radius: 10px;
+	background-color: #D8D8D8;
+}
+
+.content {
+	margin-top: 2%;
+	height: 84%;
 }
 
 .navbar {
-	background-color:#00FF00;
+	margin-left: 5%;
+	margin-right: 2%;
+	width: 10%;
+	height: 95%;
+	border-radius: 10px;
+	background-color: #00FF00;
+	float: left;
+}
+
+.text {
+	margin-right: 3%;
 }
