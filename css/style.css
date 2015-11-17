@@ -6,6 +6,8 @@
 
 .main {
 	margin-top: 1.5%;
+	margin-left: 3%;
+	margin-right: 3%;
 	border-style: solid;
 	border-top-width: 2px;
 	border-bottom-width: 2px;
@@ -38,4 +40,7 @@
 
 .text {
 	margin-right: 3%;
+	margin-left: 17%;
+	height: 95%;
+	background-color: #00FFFF;
 }
