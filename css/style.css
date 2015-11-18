@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+=======
+body {
+	background-image:url("../img/bg.png");
+}
+
+.header h1 {
+	text-align: center;
+	font-family: 'Open Sans';
+	font-size: 50px;
+}
+
+>>>>>>> origin/master
 .main {
 	border-top-width: 2px;
 	border-bottom-width: 2px;
