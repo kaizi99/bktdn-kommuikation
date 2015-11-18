@@ -1,0 +1,54 @@
+#menu {
+	font-size: 14px;
+	position: fixed;
+	left: 50%;
+	top: 55px;
+	transform: translate(-50%);
+}
+
+#menu ul {
+	list-style-type: none;
+	list-style-image: none;
+	padding: 0px;
+	text-align: center;
+}
+
+#menu li.topdown {
+	float: left;
+}
+
+.topdown a {
+	float: left;
+	width: 110px;
+	text-align: center;
+}
+
+.topdown ul {
+	display: none;
+}
+
+.topdown a, .subdown a {
+	padding: 1px 5px;
+	border: 1px;
+	border-radius: 10px;
+	border-collapse: collapse;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #D8D8D8;
+}
+
+.subdown a {
+	font-size: 12px;
+	width: 110px;
+	position: relative;
+}
+
+#menu a:hover, .topdown.on a {
+	color: #4C4C4C;
+	background-color: #E0FFFF !important;
+}
+
+.topdown:hover ul {
+	display: block;
+	z-index: 0;
+}
