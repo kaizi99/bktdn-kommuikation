@@ -1,9 +1,8 @@
 #menu {
 	font-size: 20px;
-	position: fixed;
-	left: 50%;
-	top: 56px;
-	transform: translate(-50%);
+	margin-left: 50%;
+	transform: translate(-40%);
+	z-index: 2;
 }
 
 #menu ul {
@@ -51,5 +50,5 @@
 
 .topdown:hover ul {
 	display: block;
-	z-index: 0;
+	z-index: 2;
 }
