@@ -1,8 +1,8 @@
 #menu {
-	font-size: 14px;
+	font-size: 20px;
 	position: fixed;
 	left: 50%;
-	top: 55px;
+	top: 56px;
 	transform: translate(-50%);
 }
 
@@ -30,16 +30,16 @@
 .topdown a, .subdown a {
 	padding: 1px 5px;
 	border: 1px;
-	border-radius: 10px;
 	border-collapse: collapse;
 	font-weight: bold;
-	color: black;
+	color: white;
+	font-family: 'Open Sans';
 	text-decoration: none;
-	background-color: #D8D8D8;
+	background-color: #666;
 }
 
 .subdown a {
-	font-size: 12px;
+	font-size: 18px;
 	width: 110px;
 	position: relative;
 }
