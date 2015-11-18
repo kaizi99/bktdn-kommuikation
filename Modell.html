@@ -4,6 +4,8 @@
 <title>Startseite</title>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 <link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/dropdown_1281.css" rel="stylesheet" type="text/css" media="screen and (min-width: 1281px)">
+<link href="css/dropdown_1280.css" rel="stylesheet" type="text/css" media="screen and (max-width: 1280px)">
 </header>
 
 <body>
@@ -13,13 +15,23 @@
   </div>
 
   <div class="content">
-    <nav>
-      <ul>
-        <li><a href="index.html">Startseite</a></li>
-        <li><a href="Definition.html">Was ist Kommunikation?</a></li>
-        <li><a href="Modell.html">Kommunikationsmodell von Schulz von Thun</a></li>
-      </ul>
-    </nav>
+    <div id="menu">
+		<ul>
+			<li class="topdown">
+				<a href="index.html">Startseite</a>
+			</li>
+			<li class="topdown">
+				<a href="">Themen</a>
+				<ul>
+					<li class="subdown"><a href="Definition.html">Definition</a></li>
+					<li class="subdown"><a href="Modell.html">Modell</a></li>
+				</ul>
+			</li>
+			<li class="topdown">
+				<a href="">Test</a>
+			</li>
+		</ul>
+	</div>
 
     <div class="text">
       <h1>Kommunikationsmodell von Schulz von Thun</h1>
